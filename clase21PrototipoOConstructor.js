@@ -22,10 +22,10 @@ var omar = new Persona('Omar', 'García', 1.85)
 
 var personas = [victor, omar]
 var esAlto = personas.map(soyAlto)
-  for(var i = 0; i < personas.length; i++){
-    persona = personas[i]
-    altura = esAlto[i]
-    console.log(`Mi nombre es ${persona.nombre} ${persona.apellido} y ${altura}`)
-  }
+for(var i = 0; i < personas.length; i++){
+  persona = personas[i]
+  altura = esAlto[i]
+  console.log(`Mi nombre es ${persona.nombre} ${persona.apellido} y ${altura}`)
+}
 
 //ingresar victor.saludar() en la consola para ver el saludo, así por cada objeto que exista.
